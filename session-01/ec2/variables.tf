@@ -3,7 +3,7 @@ variable "sg_name" {
     default = "roboshop-all-aws"
 }
 
-variable "sg-description" {
+variable "sg_description" {
     type = string
     default = "Allow TLS inbound traffic"
 }

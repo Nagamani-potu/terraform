@@ -9,8 +9,8 @@ resource "aws_instance" "web" {
 }
 
 resource "aws_security_group" "roboshop-all" { # this is terraform name for terraform reference
-  name        = var.sg-name
-  description = var.sg-description
+  name        = var.sg_name
+  description = var.sg_description
 # vpc_id      = aws_vpc.main.id
 
   ingress {
